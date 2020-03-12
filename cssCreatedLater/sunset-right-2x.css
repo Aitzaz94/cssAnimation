@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0; 
+}
+.wrapper{
+	width: 100%;
+	height: 582px;
+	background-color: #d2c13a;
+	display: block;
+	position: relative;
+	animation: ani-one 3s ease-in-out 1.5s forwards 1;
+}
+
+.round{
+	background-color: #FFFF00;
+	width: 11%;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	top: 10%;
+	display: block;
+	border-radius: 50%;
+	animation: ani-three 4s ease-in-out forwards 1;
+}
+
+.wrapper-2{
+	/*position: absolute;*/
+	bottom: 0;
+}
+
+.image-area{
+	width: 100%;
+	float: left;
+	height: 582px;
+	position: absolute;
+	background-image: url('mountains.png');
+}
+
+@keyframes ani-one{
+	10%{
+		background-color: #D2C13A;
+	}
+	20%{
+		background-color: #C29C33;
+	}
+	30%{
+		background-color: #B2772B;
+	}
+	40%{
+		background-color: #A25224;
+	}
+	50%{
+		background-color: #97391F;
+	}
+	70%{
+		background-color: #C1491C;
+	}
+	80%{
+		background-color: #7C2F20;
+	}
+	90%{
+		background-color: #542123;
+	}
+	100%{
+		background-color: #040427;
+	}
+}
+@keyframes ani-three{
+	100%{
+		left: 100%;
+		opacity: 0%;
+	}
+	90%{
+		opacity: 40%;
+	}
+	0%{
+		left: 0;
+	}
+}

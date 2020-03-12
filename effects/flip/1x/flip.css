@@ -1,0 +1,14 @@
+body{
+	animation-name: rotation;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rotation{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(180deg);
+	}
+}

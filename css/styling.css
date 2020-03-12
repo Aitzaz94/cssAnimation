@@ -1,0 +1,168 @@
+body{
+	/*background-image: url(../images/mountains.png);*/
+}
+.main-background-part{
+	width: 100%;
+	height: 630px;
+	/*background-color: blue;*/
+}
+  
+.top-navbar{
+	width: inherit;
+	height: 70px;
+	margin-top: -15px;
+	/*background-color: #92DFF3;*/
+	background-image: linear-gradient(to right, #6dd5ed, #1aa4b8);
+}
+ul.top-nav{
+	padding-top: 10px;
+}
+.top-nav-items{
+	display: inline;
+	padding: 80px;
+}
+.sun-action-buttons{
+	float: right;
+	width: 10%;
+	padding-top: 0px;
+}
+button.sun-rise{
+	width: 55%;
+	color: white;
+/*  	padding: 16px;
+  	font-size: 10px;
+  	border: none;
+  	height: 72px;
+  	border-radius: 65px;*/
+  	background-color: #7AD7F0;
+/*  	position: relative;
+  	top:10;*/
+  	/*left: 10;*/
+}
+button.sun-set{
+	width: 55%;
+	margin-top: 15px;
+	color: white;
+/*  	padding: 16px;
+  	font-size: 10px;
+  	border: none;
+  	height: 72px;
+  	border-radius: 65px;*/
+  	background-color: #7AD7F0;
+}
+
+.weather-button {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1aa4b8;
+}
+
+button.snow-fall-button{
+	display: block;
+	padding: 12px 16px;
+}
+
+.direction-button {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1aa4b8;
+}
+.speed-button {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1aa4b8;
+}
+.effect-button {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1aa4b8;
+}
+.weather {
+  position: relative;
+  display: inline-block;
+}
+
+.weather-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f1f1f1;*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.weather-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.weather-content button:hover {background-color: #ddd;}
+
+.weather:hover .weather-content {display: block;}
+
+/*.weather:hover .weather-button {background-color: #3e8e41;}*/
+/*.snow-fall-button button{
+  width: 150px;
+}*/
+button.snow-fall-button {width:170px;text-align: center;}
+button.snow-fall-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+/*.mountains-image{
+	width: 100%;
+}*/
+button.rain-button {width:170px;text-align: center;}
+button.rain-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+/*.mountains-image{
+  width: 100%;
+}*/
+button.fog-button {width:170px;text-align: center;}
+button.fog-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+
+button.left-direction-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+button.left-direction-button {width:170px;text-align: center;}
+button.right-direction-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+button.right-direction-button {width:170px;text-align: center;}
+button.upward-direction-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+button.upward-direction-button {width:170px;text-align: center;}
+button.downward-direction-button:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+button.downward-direction-button {width:170px;text-align: center;}
+/*.mountains-image{
+  width: 100%;
+}*/
+button.speed {width:170px;text-align: center;}
+button.speed:hover {background-color: #6dd5ed;border: 1pc solid transparent;}
+
+div.goButton {width:170px;}
+/*div.goButton:hover {background-color: #6dd5ed;border: 1pc solid transparent;}*/
+/*div.goButton h4:hover {background-color: #6dd5ed;border: 1pc solid transparent;}*/
+/*div.goButton h4 {color: black;font-weight: normal;line-height: 0px;}*/
+/*button.drop{height: 70px;}*/
+button.drop:hover{
+  background-color: #6dd5ed;border: 1pc solid transparent;
+}
+button.normal {height: 70px;width:207px;text-align: center;}
+button.normal:hover {height: 100px;width: 235px;background-color: #6dd5ed;border: 1pc solid transparent;}
+
+button.vanish {height: 70px;width:207px;text-align: center;}
+button.vanish:hover {height: 100px;width: 235px;background-color: #6dd5ed;border: 1pc solid transparent;}
+
+button.flip {height: 70px;width:207px;text-align: center;}
+button.flip:hover {height: 100px;width: 235px;background-color: #6dd5ed;border: 1pc solid transparent;}
+.body{
+	position: absolute;
+	width: 98.8%;
+	/*height: 400px;*/
+}

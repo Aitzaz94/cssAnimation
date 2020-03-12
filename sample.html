@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content button:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+</style>
+</head>
+<body>
+
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Weather</button>
+  <div class="dropdown-content">
+    <button>Snow</button>
+    <button>Rain</button>
+    <button>Fog</button>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Direction</button>
+  <div class="dropdown-content">
+    <button>Left</button>
+    <button>Right</button>
+    <button>Up</button>
+    <button>Down</button>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Speed</button>
+  <div class="dropdown-content">
+    <button>Left</button>
+    <button>Right</button>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Effect</button>
+  <div class="dropdown-content">
+    <button>Normal</button>
+    <button>Drop</button>
+    <button>Vanish</button>
+    <button>Flip</button>
+</div>
+
+</div>
+</body>
+</html>

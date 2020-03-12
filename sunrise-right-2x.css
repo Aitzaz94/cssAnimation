@@ -1,0 +1,54 @@
+/*body{
+	margin: 0;
+	padding: 0; 
+}*/
+.wrapper-right-sr-2x {
+	width: 100%;
+	height: 582px;
+	background-color: #48bcff;
+	display: block;
+	position: relative;
+	animation: ani-one-rightt-sr-two 0.75s ease-in-out 1.5s forwards 1;
+}
+
+.round-right-sr-2x{
+	background-color: #FFFF00;
+	width: 11%;
+	height: 150px;
+	position: absolute;
+	left: 85%;
+	top: 10%;
+	display: block;
+	border-radius: 50%;
+	animation: ani-four-rightt-sr-two 2s ease-in-out forwards 1;
+}
+
+.wrapper-2-right-sr-2x{
+	/*position: absolute;*/
+	bottom: 0;
+}
+
+.image-area-right-sr-2x{
+	width: 100%;
+	float: left;
+	height: 582px;
+	position: absolute;
+	background-image: url('mountains.png');
+}
+
+@keyframes ani-one-rightt-sr-two{
+	75%{
+		background-color: #d2c13a;
+	}
+	100%{
+		background-color: #d2c13a
+	}
+}
+@keyframes ani-four-rightt-sr-two{
+	0%{
+		left: 85%;
+	}
+	100%{
+		left: 2%;
+	}
+}

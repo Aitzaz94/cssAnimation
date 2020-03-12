@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>appending</title>
+	<script type="text/javascript">
+		// $(".appendbtn").click(function () {
+		//     var template = $('#appendTemplate').html();
+		//     $(".appendme").append(template);
+		// });
+		function clc(){document.getElementById('appendme').innerHTML = '<div>Appended</div>';}
+		
+	</script>
+	<script type="text/html" id="appendTemplate">
+	    <div>Appended</div>
+	</script>
+</head>
+<body>
+	<div class="appendme" id="appendme"></div>
+	<button class="appendbtn" type="button" onclick="clc();">Click to append</button>
+</body>
+</html>
